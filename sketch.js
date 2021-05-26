@@ -70,6 +70,10 @@ function setup() {
 
 function draw() {
   background(0,255,255);  
+  
+  textSize(20);
+  fill("black");
+  text("Drag the Hexagonal stone and release it, to launch it towards the blocks",180,40);
 
   Engine.update(engine);
   ground1.display();
